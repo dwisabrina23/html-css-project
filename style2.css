@@ -1,0 +1,33 @@
+.btn-primary {
+    background-color: #F47522 !important;
+    border-color: #F47522;
+    color: white;
+}
+
+.col-md-4{
+    background-image: url("assets/img/charles-rRWiVQzLm7k-unsplash.jpg");
+    box-shadow: inset 0 0 0 1000px rgba(11, 11, 111, 0.50);
+    background-size: cover;
+}
+
+#logo-alta{
+    top: 50;
+}
+
+#floatingTextarea {
+    height: 112px;
+}
+
+.row{
+    overflow-y: scroll;
+    height: 100%;
+}
+
+h2 {
+    font-size: 28px;
+    color: #19345E;
+}
+
+.text-area{
+    height: 112px;
+}
