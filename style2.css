@@ -22,12 +22,12 @@
 }
 
 .row{
-    overflow-y: scroll;
+    /* overflow-y: scroll; */
     height: 100%;
 }
 
 h2 {
-    font-size: 26px;
+    font-size: 28px;
     color: #19345E;
 }
 sup {
@@ -47,6 +47,7 @@ sup {
 .form-label {
     font-size: 20px;
     color: #19345E;
+    margin-bottom: 1px;
 }
 
 input.form-control{
