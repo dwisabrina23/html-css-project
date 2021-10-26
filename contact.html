@@ -18,21 +18,23 @@
     <div class="container-fluid">
       <div class="row d-flex">
         <div class="col-md-4">
-          <img
+          <div class="center" style="text-align: center;">
+            <img
             id="logo-alta"
             src="assets/img/logo-ALTA-v2@2x.png"
             style="width: 275px"
             alt=""
-          />
+          /></div>
+          
         </div>
-        <div class="col-md-5">
+        <div class="col-md-5" style="margin-left: 150px; margin-top: 39px;">
           <div class="container p-3">
             <form>
               <div class="mb-3">
                 <h2>Contact Us</h2>
               </div>
               <div class="mb-3">
-                <label for="fullname" class="form-label">Full Name</label>
+                <label for="fullname" class="form-label">Full Name<sup id="bintang">*</sup></label>
                 <input
                   type="text"
                   class="form-control"
@@ -45,7 +47,7 @@
                   </div>
               </div>
               <div class="mb-3">
-                <label for="email" class="form-label">Email Address</label>
+                <label for="email" class="form-label">Email Address<sup id="bintang">*</sup></label>
                 <input
                   type="email"
                   class="form-control"
@@ -58,7 +60,7 @@
                   </div>
               </div>
               <div class="mb-3">
-                <label for="phone" class="form-label">Phone Number</label>
+                <label for="phone" class="form-label">Phone Number<sup id="bintang">*</sup></label>
                 <input
                   type="text"
                   class="form-control"
@@ -73,24 +75,24 @@
               <div class="mb-3">
                 <label for="nationality" class="form-label">Nationality</label>
                 <select class="form-select" aria-label="Default select example">
-                  <option selected>Nationality</option>
+                  <option selected>Selected</option>
                   <option value="id">Indonesia</option>
                   <option value="th">Thailand</option>
                   <option value="jp">Japan</option>
                 </select>
               </div>
-              <div class="text-area mb-3">
-                <label for="floatingTextarea">Message</label>
+              <div class="mb-3">
+                <label for="floatingTextarea" class="form-label">Message</label>
                 <textarea
                   class="form-control"
                   placeholder="Leave your message here"
                   id="floatingTextarea"
                 ></textarea>
               </div>
-              <button type="submit" class="btn btn-primary rounded-pill mt-3">
-                Submit
-              </button>
             </form>
+            <button type="submit" class="btn btn-primary rounded-pill mb-3">
+              Submit
+            </button>
           </div>
         </div>
       </div>

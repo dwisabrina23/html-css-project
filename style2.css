@@ -1,3 +1,6 @@
+* {
+    font-family: Roboto, sans-serif;
+}
 .btn-primary {
     background-color: #F47522 !important;
     border-color: #F47522;
@@ -24,10 +27,39 @@
 }
 
 h2 {
-    font-size: 28px;
+    font-size: 26px;
+    color: #19345E;
+}
+sup {
+    font-size: large;
+    font-weight: 600;
+    color: red;
+}
+
+.center{
+    display: block;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    transform: translate(30%, -50%);
+}
+
+.form-label {
+    font-size: 20px;
     color: #19345E;
 }
 
-.text-area{
-    height: 112px;
+input.form-control{
+    padding: 2px 2px;
+    line-height: 28px;
+}
+
+select.form-select{
+    padding: 2px 2px;
+    line-height: 28px;
+    font-size: 16px;
+}
+
+input::placeholder{
+    font-size: 14px;
 }
